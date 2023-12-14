@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url(/assets/images/portfolio/taskk/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div {
+    border-radius: 15px;
+    padding: 10px;
+}
+
+img {
+    width: 200px;
+    height: 230px;
+    border-radius: 6px;
+    transition: all .4s;
+}
+
+img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin-left:55px;
+    font-size: 20px;
+    background: blueviolet;
+    border-radius: 15px;
+    width: 90px;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    color: aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+.back {
+    background: violet;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    transition: all .4s;
+}
+
+.back img {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    margin: 80px 20px;
+}
+
+.back:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+

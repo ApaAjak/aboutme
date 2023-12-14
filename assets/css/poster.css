@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(/assets/images/portfolio/taskk/back.jpg);
+	font-family: 'Poppins', sans-serif;
+	font-size:10px;
+	color: #676a81;
+	background: #fff;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+}
+
+
+.container {
+    /* background: url(/assets/images/portfolio/taskk/ini\ back.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: "";
+    align-items: center;
+    padding: 10px;
+}
+
+h1 {
+    color: black;
+    padding: 10px;
+}
+
+   
+.fitri,
+.adha,
+.jumat,
+.nasihat,
+.kajian,
+.mufrodat {
+    background: violet;
+    text-align: center;
+    margin-top: 20px;
+}
+
+    
+div {
+    border-radius: 6px;
+}
+
+/* .line {
+    width: 300px;
+    height: 3px;
+    background: black;
+} */
+
+img {
+    width: 200px;
+    height: 230px;
+}
+
+.back {
+    background: blueviolet;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-left: 20px;
+    padding: 20px;
+    transition: all .4s;
+}
+
+.back img {
+    width: 10px;
+    height: 10px;
+    margin: 20px 20px;
+}
+
+.back:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
